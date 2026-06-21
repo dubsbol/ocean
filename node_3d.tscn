@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dmko0w73nyym"]
+
+[ext_resource type="Shader" uid="uid://5ehx26xawrd8" path="res://ocean.gdshader" id="1_a202f"]
+[ext_resource type="Script" uid="uid://gsdtcq4fmgh1" path="res://instantiate-jonswap.gd" id="1_noarx"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_noarx"]
+render_priority = 0
+shader = ExtResource("1_a202f")
+
+[sub_resource type="QuadMesh" id="QuadMesh_a202f"]
+subdivide_width = 256
+subdivide_depth = 256
+orientation = 1
+
+[node name="Node3D" type="Node3D" unique_id=398657841]
+script = ExtResource("1_noarx")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=404040777]
+material_override = SubResource("ShaderMaterial_noarx")
+mesh = SubResource("QuadMesh_a202f")
