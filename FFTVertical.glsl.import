@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://db8awtdfxi3fi"
+path="res://.godot/imported/FFTVertical.glsl-f0024acfe22c79008010d0e4ec249872.res"
+
+[deps]
+
+source_file="res://FFTVertical.glsl"
+dest_files=["res://.godot/imported/FFTVertical.glsl-f0024acfe22c79008010d0e4ec249872.res"]
+
+[params]
+

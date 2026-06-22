@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://b554xveqosfto"]
+
+[ext_resource type="Script" uid="uid://dfasqw72bfq5c" path="res://QuadTree3D.gd" id="1_mn2fq"]
+
+[node name="QuadTree3D" type="Node3D" unique_id=1092429752]
+script = ExtResource("1_mn2fq")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2124453239]
+
+[node name="VisibleOnScreenNotifier3D" type="VisibleOnScreenNotifier3D" parent="." unique_id=1808125407]
+
+[node name="SubQuads" type="Node3D" parent="." unique_id=2108401241]

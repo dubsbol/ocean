@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://chb7kfdaeh00i"
+path="res://.godot/imported/Phase.glsl-d0fb457d8799a66f2466214353491d5d.res"
+
+[deps]
+
+source_file="res://Phase.glsl"
+dest_files=["res://.godot/imported/Phase.glsl-d0fb457d8799a66f2466214353491d5d.res"]
+
+[params]
+
