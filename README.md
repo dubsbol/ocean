@@ -7,3 +7,4 @@ References:
 - [achalpandyy](https://github.com/achalpandeyy/OceanFFT) opengl implementation
 - [Simulating Ocean Water](https://tore.tuhh.de/handle/11420/1439?locale=en) Jerry Tessendorf
 - [Realtime GPGPU FFT ocean water simulation](https://doi.org/10.15480/882.1436) Fynn-Jorin Fluge
+![ocean.gif](./ocean.gif)
